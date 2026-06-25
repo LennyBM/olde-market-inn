@@ -1,0 +1,15 @@
+{
+  "name": "The Olde Market Inn",
+  "short_name": "Olde Market Inn",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF7F0",
+  "theme_color": "#7B1E26",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
