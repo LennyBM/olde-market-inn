@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "olde-market-inn",
   "name": "The Olde Market Inn",
   "shortName": "Olde Market Inn",
   "tagline": "A warm, family-run free house in the heart of Holsworthy's market town",
-  "intro": "A spacious restaurant with 60+ covers plus a separate dining area and bar meals. Famous for its weekly Sunday carvery and mid-week market-day roast, with a hearty menu of pub classics and chef's speci",
+  "intro": "A spacious restaurant with 60+ covers plus a separate dining area and bar meals. Famous for its weekly Sunday carvery and mid-week market-day roast, with a hearty menu of pub classics and chef's specials, prepared by co-owner and chef Ian.",
   "type": "Inn",
   "established": "Market town",
   "siteUrl": "https://olde-market-inn.vercel.app",
@@ -239,17 +239,12 @@ export const site: SiteConfig = {
     "img-07.jpg",
     "img-08.jpg",
     "img-09.jpg",
-    "img-10.jpg",
-    "img-11.jpg",
     "img-12.jpg",
-    "img-13.jpg",
     "img-14.jpg",
     "img-15.jpg",
     "img-16.jpg",
     "img-17.jpg",
-    "img-18.jpg",
     "img-19.jpg",
-    "img-20.jpg",
     "img-21.jpg"
   ],
   "hero": "img-00.jpg",
@@ -266,6 +261,25 @@ export const site: SiteConfig = {
     "https://www.facebook.com/61558714166897/videos/fab-afternoon-here-at-the-inn/1317828056423138/",
     "https://www.instagram.com/reel/DScjq-tCCgy/"
   ],
+  "focal": {
+    "img-00.jpg": "45% 35%",
+    "img-03.jpg": "50% 60%",
+    "img-04.jpg": "65% 55%",
+    "img-05.jpg": "30% 55%",
+    "img-06.jpg": "45% 60%",
+    "img-07.jpg": "60% 55%",
+    "img-08.jpg": "50% 60%",
+    "img-09.jpg": "65% 65%",
+    "img-12.jpg": "45% 55%",
+    "img-16.jpg": "45% 75%",
+    "img-17.jpg": "40% 45%",
+    "img-21.jpg": "50% 60%"
+  },
+  "design": {
+    "display": "inn",
+    "hero": "anchor",
+    "order": "locals-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#7B1E26",
